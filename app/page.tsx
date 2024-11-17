@@ -1,12 +1,7 @@
-import Component from "@/components/comp";
+import Login from "@/components/login";
 
 const Home = () => {
-  return (
-    <div>
-      Home
-      <Component />
-    </div>
-  );
+  return <Login />;
 };
 
 export default Home;
